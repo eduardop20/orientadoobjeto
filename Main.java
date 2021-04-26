@@ -5,8 +5,10 @@ public class Main {
         Carro c = new Carro("fiat", "amarelo", 4);
         Carro c1 = new Carro("GM", "preto", 4);
 
-        System.out.println("Cor do carro: "+c.cor);
-        System.out.println("Cor do carro1: "+c1.cor);
+       c.setCor("vermelho");
+
+        System.out.println("Cor do carro: "+c.getCor());
+        System.out.println("Cor do carro1: "+c1.getCor());
 
         c.acelerar();
     }
