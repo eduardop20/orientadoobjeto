@@ -2,8 +2,8 @@ public class Carro {
 
     private String marca;
     private String cor;
-    private int portas;
-    
+    private static int portas;
+     
     public Carro (String marca, String cor, int portas){
         this.marca = marca;
         this.cor = cor;
@@ -33,7 +33,7 @@ public class Carro {
         return marca;
     }
 
-    public int Portas() 
+    public int getPortas() 
     {
         return portas;
     }
