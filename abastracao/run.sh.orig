@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+@echo OFF
+javac -d classes Main.java
+=======
+@echo OFF
+javac -d classes Main.java
+>>>>>>> 5eccb4d221261b930cc05dc7b3248cb6a495a4a6
+java -cp classes Main

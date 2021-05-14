@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+public abstract class Conta {
+=======
+public class Conta {
+>>>>>>> 5eccb4d221261b930cc05dc7b3248cb6a495a4a6
+    
+    private int numero;
+    private float saldo;
+
+    public void depositar(float valor)
+    {
+        saldo += valor;
+    }
+
+    public void sacar(float valor)
+    {
+        saldo -= valor;
+    }
+
+<<<<<<< HEAD
+    public float getSaldo ()
+    {
+        return saldo;
+    }
+
+    public abstract void imprime_saldo();
+    
+}
+=======
+    public void imprime_saldo()
+    {
+        System.out.println(saldo);
+    }
+
+}
+>>>>>>> 5eccb4d221261b930cc05dc7b3248cb6a495a4a6

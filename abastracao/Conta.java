@@ -8,16 +8,16 @@ public abstract class Conta {
         saldo += valor;
     }
 
-    public void sacar(float valor)
+    public void ssacar(float valor)
     {
         saldo -= valor;
     }
 
-    public float getSaldo ()
+public float getSaldo ()
     {
-        return saldo;
+	return saldo;
     }
 
-    public abstract void imprime_saldo();
+public abstract void imprime_saldo();
     
 }

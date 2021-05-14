@@ -1,0 +1,23 @@
+public class Main {
+    
+    public static void main(String[] args) {
+<<<<<<< HEAD
+        ContaCorrente c = new ContaCorrente();
+        c.depositar(50);    
+        c.imprime_saldo();
+
+        ContaPoupanca cp = new ContaPoupanca();
+        cp.depositar(100);
+        cp.sacar(40);
+        cp.imprime_saldo();
+    } 
+=======
+        Conta c = new Conta();
+        c.depositar(50);    
+        c.imprime_saldo();
+    }
+  
+    
+>>>>>>> 5eccb4d221261b930cc05dc7b3248cb6a495a4a6
+    
+}
